@@ -99,9 +99,9 @@ export default {
   },
   created() {
     this.activeIndex = this.$route.path;  //刷新界面菜单更新选中状态
-    home().then(res => {
-      console.log(res);
-    });
+    // home().then(res => {
+    //   console.log(res);
+    // });
   },
 
   methods: {

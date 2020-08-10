@@ -30,7 +30,7 @@ let imgExist = function(url) {
     })
 }
 
-
+//完整的自定义组件示例
 Vue.directive('test', {
     //只调用一次，指令第一次绑定到元素时调用
     bind: function(el, binding, vnode, oldvnode){

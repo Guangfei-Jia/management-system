@@ -8,7 +8,7 @@ import VueLazyload from 'vue-lazyload';
 import { message } from '@/utils/utils';
 import ContentWrap from '@/components/layout/ContentWrap'
 
-import 'element-ui/lib/theme-chalk/index.css';    //需要注释掉
+import 'element-ui/lib/theme-chalk/index.css';    //发生产需要注释掉
 
 import '@/utils/filters'
 import '@/utils/directive'
