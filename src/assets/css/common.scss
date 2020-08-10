@@ -1,0 +1,14 @@
+@import "_variable";
+@import "mixin";
+
+body,html{
+    height: 100%;
+    margin: 0;
+    font-size: 13px;
+}
+.sys-content-wrap{
+    width: 100%;
+}
+.sys-add-button {
+    margin-bottom: 10px;
+  }
