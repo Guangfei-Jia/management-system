@@ -4,7 +4,7 @@
       <el-col :span="18">
         <el-card class="box-card">
           <div slot="header" class="clearfix">
-            <span>聊天信息</span>
+            <span>聊天信息（使用两个浏览器登陆不同账户可以进行测试）</span>
             <el-button style="float: right; padding: 3px 0" type="text"
               >加入聊天</el-button
             >

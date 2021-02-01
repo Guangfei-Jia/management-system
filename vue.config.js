@@ -56,7 +56,7 @@ const CDN = {
 }
 
 module.exports = {
-    mode: 'production', //默认生产环境，默认开启tree sharking 和 UglifyJsPlugin代码压缩，development
+    // mode: 'production', //默认生产环境，默认开启tree sharking 和 UglifyJsPlugin代码压缩，development
     publicPath: IS_PROD ? config.PUBLIC_PATH : '/',         // 公共路径,若使用./嵌套路由将失效
     outputDir: process.env.outputDir || 'dist',             // 'dist', 生产环境构建文件的目录
     // assetDir: 'static',                                     // 相对于outputDir的静态资源(js、css、img、fonts)目录
